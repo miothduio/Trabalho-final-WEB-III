@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \".\\\\cozinheiro_restaurante\\\\app\\\\Config\\\\Database.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \".\\\\cliente_restaurante\\\\app\\\\Controllers\\\\BaseController.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \".\\\\cozinha_restaurante\\\\app\\\\Controllers\\\\Api\\\\PedidoApi.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \".\\\\cozinheiro_restaurante\\\\app\\\\Views\\\\layouts\\\\painel.php\")",
+      "PowerShell(& \"C:\\\\xampp\\\\php\\\\php.exe\" -l \".\\\\cozinha_restaurante\\\\app\\\\Controllers\\\\api\\\\TotemApi.php\")",
+      "PowerShell(Get-Command gh -ErrorAction SilentlyContinue)"
+    ]
+  }
+}

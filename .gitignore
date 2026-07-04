@@ -1,0 +1,21 @@
+# Writable dirs (CodeIgniter 4) - keep folder structure, ignore generated content
+*/writable/cache/*
+!*/writable/cache/index.html
+*/writable/debugbar/*
+!*/writable/debugbar/index.html
+*/writable/logs/*
+!*/writable/logs/index.html
+*/writable/session/*
+!*/writable/session/index.html
+
+# Composer
+*/vendor/
+composer.lock
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# PHPUnit
+.phpunit.result.cache
